@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Music</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Playlist Section -->
+        <div class="table-section">
+            <h2>Playlist</h2>
+            <table id="playlistTable">
+                <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>Title</th>
+                        <th>Artist</th>
+                        <th>Album Art</th>
+                    </tr>
+                </thead>
+                <tbody id="playlistTableBody"></tbody>
+            </table>
+        </div>
+
+        <!-- Search -->
+        <div class="wrapper">
+            <label for="song">Enter Song Title</label>
+            <input type="text" id="song" />
+            <button id="submit_button">Search</button>
+        </div>
+        
+        <!-- Search Results Section -->
+        <div class="table-section">
+            <h2 id="searchHeader" ></h2>
+            <table id="songsTable">
+                <thead>
+                    <tr>
+                        <th>Add</th>
+                        <th>Title</th>
+                        <th>Artist</th>
+                        <th>Album Art</th>
+                    </tr>
+                </thead>
+                <tbody id="songsTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+/* Your styles go in this file */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-left: 20px;  /* Changed from auto */
+    margin-right: 20px; /* Changed from auto */
+    padding: 20px;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: left;   /* Changed from center */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.wrapper {
+    text-align: left;   /* Changed from center */
+    margin: 30px 0;
+    padding: 20px;
+}
+
+button {
+    height: 35px;
+    color: white;
+    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 300px;
+}
+
+.tables-container {
+    margin: 20px 0;
+}
+
+.table-section {
+    margin: 30px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
